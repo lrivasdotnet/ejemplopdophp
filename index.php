@@ -135,6 +135,7 @@
         <input type='text' name='filtro'  value='$filtro'></label>
         <br>
         <input type='submit' value='Buscar'>
+        <a href='exportarEstudiantes.php?filtro=$filtro'>Exportar JSON</a>
         </form>
         <table width='100%' border='1'>
         <tr>
